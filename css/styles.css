@@ -52,3 +52,11 @@ a {
   min-block-size: 100vh;
   padding: 24px;
 }
+
+/* Preview card component */
+
+.preview-card {
+}
+
+.preview-card__header {
+}
