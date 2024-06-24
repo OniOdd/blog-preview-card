@@ -66,4 +66,34 @@ a {
 }
 
 .preview-card__header {
+  margin-block-end: 24px;
+}
+
+.preview-card__illustration-wrapper {
+  block-size: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.preview-card__illustration {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+.preview-card__body {
+  margin-block-end: 1.5rem;
+}
+
+.preview-card__badge {
+  display: inline-block;
+  padding: 0.286em 0.8572em;
+  margin-block-end: 1rem;
+  font-weight: 800;
+  background-color: var(--clr-yellow);
+  border-radius: 4px;
+}
+
+.preview-card__publish-date {
+  font-size: 0.75rem;
 }
