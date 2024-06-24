@@ -58,7 +58,7 @@ a {
 .preview-card {
   inline-size: 100%;
   max-inline-size: 384px;
-  padding: 24px;
+  padding: 23px 24px;
   background-color: var(--clr-white);
   border: 1px solid var(--clr-black);
   border-radius: 20px;
