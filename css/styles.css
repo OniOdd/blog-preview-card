@@ -63,6 +63,12 @@ a {
   border: 1px solid var(--clr-black);
   border-radius: 20px;
   box-shadow: 8px 8px var(--clr-black);
+  transition: box-shadow 0.15s;
+}
+
+/* TODO: need to check sizes in the original template */
+.preview-card.active {
+  box-shadow: 16px 16px var(--clr-black);
 }
 
 .preview-card__header {
@@ -95,5 +101,41 @@ a {
 }
 
 .preview-card__publish-date {
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
+}
+
+.preview-card__title {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.preview-card__link {
+  display: block;
+  transition: color 0.15s;
+}
+
+.preview-card__link:hover,
+.preview-card__link:focus-visible {
+  color: var(--clr-yellow);
+}
+
+.preview-card__link:active {
+  color: hsl(47, 88%, 80%);
+}
+
+.preview-card__link:hover .preview-card {
+  box-shadow: 16px 16px var(--clr-black);
+}
+
+.preview-card__description {
+  color: var(--clr-grey);
+}
+
+.preview-card__author {
+  display: flex;
+  align-items: center;
+}
+
+.preview-card__author-name {
+  font-weight: 800;
 }
