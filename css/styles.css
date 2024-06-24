@@ -148,5 +148,6 @@ a {
 }
 
 .preview-card__author-name {
+  font-size: 0.875rem;
   font-weight: 800;
 }
